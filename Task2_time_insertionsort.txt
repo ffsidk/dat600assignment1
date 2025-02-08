@@ -1,0 +1,61 @@
+Python time:
+Size: 10, Time taken: 0.000009 seconds
+Size: 50, Time taken: 0.000124 seconds
+Size: 100, Time taken: 0.000499 seconds
+Size: 500, Time taken: 0.021488 seconds
+Size: 1000, Time taken: 0.097217 seconds
+Size: 10000, Time taken: 10.342042 seconds
+Size: 20000, Time taken: 40.869750 seconds
+
+
+Go time:
+Size: 10, Time taken: 360ns
+Size: 50, Time taken: 3.18µs
+Size: 100, Time taken: 16.659µs
+Size: 500, Time taken: 231.439µs
+Size: 1000, Time taken: 788.734µs
+Size: 10000, Time taken: 77.052895ms
+Size: 20000, Time taken: 313.155425ms
+
+
+Size 10:
+Go: 360ns = 0.00000036s
+Python: 0.000009s
+Ratio: 1 : 25
+(0.00000036 / 0.000009 = 0.04 → 1:25)
+
+Size 50:
+Go: 3.18µs = 0.00000318s
+Python: 0.000124s
+Ratio: 1 : 39
+(0.00000318 / 0.000124 ≈ 0.0256 → 1:39)
+
+Size 100:
+Go: 16.659µs = 0.000016659s
+Python: 0.000499s
+Ratio: 1 : 30
+(0.000016659 / 0.000499 ≈ 0.0334 → 1:30)
+
+Size 500:
+Go: 231.439µs = 0.000231439s
+Python: 0.021488s
+Ratio: 1 : 93
+(0.000231439 / 0.021488 ≈ 0.0108 → 1:93)
+
+Size 1000:
+Go: 788.734µs = 0.000788734s
+Python: 0.097217s
+Ratio: 1 : 123
+(0.000788734 / 0.097217 ≈ 0.0081 → 1:123)
+
+Size 10,000:
+Go: 77.052895ms = 0.077052895s
+Python: 10.342042s
+Ratio: 1 : 134
+(0.077052895 / 10.342042 ≈ 0.00745 → 1:134)
+
+Size 20,000:
+Go: 313.155425ms = 0.313155425s
+Python: 40.869750s
+Ratio: 1 : 131
+(0.313155425 / 40.869750 ≈ 0.00766 → 1:131)

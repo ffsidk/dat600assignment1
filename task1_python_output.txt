@@ -1,0 +1,49 @@
+Running size: 10
+Quicksort steps: 99
+Desired (precalculated) quicksort steps: 100
+Heapsort steps: 86
+Desired (precalculated) heapsort steps: 33.219280948873624
+Insertionsort steps: 101
+Desired (precalculated) insertionsort steps: 100
+Mergesort steps: 34
+Desired (precalculated) mergesort steps: 33.219280948873624
+
+Running size: 50
+Quicksort steps: 2499
+Desired (precalculated) quicksort steps: 2500
+Heapsort steps: 467
+Desired (precalculated) heapsort steps: 282.1928094887362
+Insertionsort steps: 2501
+Desired (precalculated) insertionsort steps: 2500
+Mergesort steps: 286
+Desired (precalculated) mergesort steps: 282.1928094887362
+
+Running size: 100
+Quicksort steps: 9999
+Desired (precalculated) quicksort steps: 10000
+Heapsort steps: 941
+Desired (precalculated) heapsort steps: 664.3856189774725
+Insertionsort steps: 10001
+Desired (precalculated) insertionsort steps: 10000
+Mergesort steps: 672
+Desired (precalculated) mergesort steps: 664.3856189774725
+
+Running size: 500
+Quicksort steps: 249999
+Desired (precalculated) quicksort steps: 250000
+Heapsort steps: 4742
+Desired (precalculated) heapsort steps: 4482.892142331044
+Insertionsort steps: 250001
+Desired (precalculated) insertionsort steps: 250000
+Mergesort steps: 4488
+Desired (precalculated) mergesort steps: 4482.892142331044
+
+Running size: 1000
+Quicksort steps: 999999
+Desired (precalculated) quicksort steps: 1000000
+Heapsort steps: 9491
+Desired (precalculated) heapsort steps: 9965.784284662088
+Insertionsort steps: 1000001
+Desired (precalculated) insertionsort steps: 1000000
+Mergesort steps: 9976
+Desired (precalculated) mergesort steps: 9965.784284662088
