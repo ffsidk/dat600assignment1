@@ -1,32 +1,3 @@
-# def quicksort(A, p, r):
-#     steps = 0
-#     if p < r:
-#         steps += 1
-#         q, s = partition(A, p, r)
-#         steps += s
-#         steps += quicksort(A, p, q - 1)
-#         steps += quicksort(A, q + 1, r)
-#     return steps
-#
-#
-# def partition(A, p, q):
-#     steps = 0
-#     x = A[p]
-#     i = p
-#     steps += 2
-#     for j in range(p + 1, q + 1):
-#         steps += 1
-#         steps += 1
-#         if A[j] <= x:
-#             i += 1
-#             steps += 1
-#             A[i], A[j] = A[j], A[i]
-#             steps += 1
-#     A[p], A[i] = A[i], A[p]
-#     steps += 1
-#     return i, steps
-
-
 def quicksort(A, p, r):
     steps = 0
     if p < r:
